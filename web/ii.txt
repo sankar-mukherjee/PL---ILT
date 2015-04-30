@@ -1,0 +1,143 @@
+addListGroup("pos", "postag");
+
+addList("postag", "Noun", "N", "Noun", 1);
+addList("postag", "Verb", "V", "Verb");
+addList("postag", "Pronoun", "P", "Pronoun");
+addList("postag", "Nominal-Modifiers", "J", "Nominal-Modifiers");
+addList("postag", "Demon-Stratives", "D", "Demon-Stratives");
+addList("postag", "Adverb", "A", "Adverb");
+addList("postag", "Postposition", "PP", "Postposition");
+addList("postag", "Preposition", "PRE", "Preposition");
+addList("postag", "Conjunction", "CO", "Conjunction");
+addList("postag", "Interjection", "IN", "Interjection");
+/////////////////////////////////////////////////////////////////////////////////////////////
+addList("Noun", "Common", "C", "Noun-Common");
+addList("Noun", "Proper", "P", "");
+addList("Noun", "Verbal", "V", "");
+addList("Noun", "Spatiotemporal", "ST", "");
+
+addList("Noun-Common", "Gender", "Gen", "Gender");
+addList("Noun-Common", "Number", "Num", "Number");
+addList("Noun-Common", "Person", "Per", "Person");
+addList("Noun-Common", "Case", "Cs", "Case");
+addList("Noun-Common", "Case-marker", "Csm", "Case-marker");
+addList("Noun-Common", "Numeral", "Nml", "Numeral");
+
+addOption("Gender", "Masculine", "Mas");
+addOption("Gender", "Feminine", "Fem");
+addOption("Gender", "Neuter", "Neu");
+
+addOption("Number", "Singular", "Sg");
+addOption("Number", "Plural", "Pl");
+addOption("Number", "Dual", "Du");
+
+addOption("Person", "First", "1p");
+addOption("Person", "Second", "2p");
+addOption("Person", "Third", "3p");
+
+addOption("Case", "Direct", "Dir");
+addOption("Case", "Oblique","Obl");
+
+addOption("Case-marker", "Ergative", "Erg");
+addOption("Case-marker", "Accusative", "Acc");
+addOption("Case-marker", "Instrumental", "Inst");
+addOption("Case-marker", "Dative", "Dat");
+addOption("Case-marker", "Genitive", "Gen");
+addOption("Case-marker", "Sociative", "Soc");
+addOption("Case-marker", "Locative", "Loc");
+addOption("Case-marker", "Ablative", "Abl");
+addOption("Case-marker", "Benefective", "Bnf");
+addOption("Case-marker", "Vocative", "Voc");
+addOption("Case-marker", "Purposive", "Pur");
+
+addOption("Numeral", "Ordinal", "Ord");
+addOption("Numeral", "Cardinal", "Card");
+addOption("Numeral", "Non-numeral", "n-Nml");
+///////////////////////////////////////////////////////////////////////////////////////////
+addList("Verb", "Main", "M", "Verb-Main");
+addList("Verb", "Auxiliary", "A", "");
+
+addList("Verb-Main", "Tense", "Tns", "Tense");
+addList("Verb-Main", "Aspect", "Asp", "Aspect");
+addList("Verb-Main", "Mood", "Mood", "Mood");
+addList("Verb-Main", "Finite", "Fin", "Finite");
+addList("Verb-Main", "Non-Finite", "NFin", "Non-Finite");
+addList("Verb-Main", "Emphatic", "Emph", "Emphatic");
+addList("Verb-Main", "Negative", "Neg", "Negative");
+
+addOption("Tense", "Present", "Prs");
+addOption("Tense", "Past", "Pst");
+addOption("Tense", "Future", "Fut");
+
+addOption("Aspect", "Simple", "Sim");
+addOption("Aspect", "Progressive", "Prog");
+addOption("Aspect", "Purposive", "Purp");
+
+addOption("Mood", "Declarative", "Dcl");
+addOption("Mood", "Subjunctive", "Sbj");
+addOption("Mood", "Conditional", "Cnd");
+addOption("Mood", "Imperative", "Imp");
+addOption("Mood", "Presumptive", "Psm");
+addOption("Mood", "Abilitative", "Abt");
+addOption("Mood", "Habitual", "Hab");
+
+addOption("Finite", "Finite", "Fin");
+
+addOption("Non-Finite", "Infinitive", "Inf");
+addOption("Non-Finite", "Gerund", "Ger");
+addOption("Non-Finite", "Participle", "Prt");
+
+addOption("Emphatic", "Yes", "Emph");
+addOption("Emphatic", "No", "n-Emph");
+
+addOption("Negative", "Yes", "Neg");
+addOption("Negative", "No", "n-Neg");
+/////////////////////////////////////////////////////////////
+addList("Pronoun", "Pronominal", "PR", "Pronoun-Pronominal");
+addList("Pronoun", "Reflexive","RF","");
+addList("Pronoun", "Reciprocal", "RC","");
+addList("Pronoun", "Relative", "RL","");
+addList("Pronoun", "Wh", "WH","");
+
+addList("Pronoun-Pronominal", "Gender", "Gen", "Gender");
+addList("Pronoun-Pronominal", "Number", "Num", "Number");
+addList("Pronoun-Pronominal", "Person", "Per", "Person");
+addList("Pronoun-Pronominal", "Case", "Cs", "Case");
+addList("Pronoun-Pronominal", "Case-marker", "Csm", "Case-marker");
+addList("Pronoun-Pronominal", "Honorificity", "Hon", "Honorificity");
+addList("Pronoun-Pronominal", "Intimacy", "In", "Intimacy");
+addList("Pronoun-Pronominal", "Numeral", "Nml", "Numeral");
+
+
+addOption("Honorificity", "Yes", "Hon");
+addOption("Honorificity", "No", "n-Hon");
+
+addOption("Intimacy", "Yes", "Inti");
+addOption("Intimacy", "No", "n-Inti");
+
+addOption("Numeral", "Ordinal", "Ord");
+addOption("Numeral", "Cardinal", "Card");
+addOption("Numeral", "Non-numeral", "n-Nml");
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+addList("Nominal-Modifiers", "Adjectives" , "J","");
+addList("Nominal-Modifiers", "Quantifiers", "Q","");
+
+addList("Demon-Stratives", "Absolute", "AB","");
+addList("Demon-Stratives", "Relative", "RL","");
+addList("Demon-Stratives", "Wh", "WH","");
+
+addList("Adverb", "Manner", "MN","");
+addList("Adverb", "Location", "LC","");
+addList("Adverb", "Time", "TI","");
+
+addList("Postposition", "Postposition", "PP","");
+addList("Postposition", "Postpositional-Endings", "PE","");
+
+addList("Preposition", "Preposition", "F","");
+
+addList("Conjunction", "Conjunction", "NJ","");
+
+addList("Interjection", "Interjection", "TJ","");
+

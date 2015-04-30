@@ -1,0 +1,241 @@
+/* 
+    Document   : Style
+    Created on : 23 May, 2011, 5:40:31 PM
+    Author     : Sankar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+root { 
+    display: block;
+}
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;	
+	font-family: Arial, Helvetica, sans-serif, Lucida-Sans-Unicode, Vrinda, Mangal;
+	font-size: 13px;
+        background: #08697c url(../Images/bg.png) repeat-x top;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ }
+
+#container
+{
+  display: block;
+  height:auto;
+  position: relative;
+  width: 100%;
+/*  background: url(Images/templatemo_content_bg.jpg) repeat;*/
+}
+
+
+#header
+{
+background: #08697c url(../Images/header.png) repeat-x;
+height:73px;
+width:100%;
+font: 20pt "Lucida Grande", "Arial";
+font-weight:normal;
+color:#63e3ff;
+margin-top:0px;
+border-top:0px;
+text-align:center;
+padding-top:47px;
+}
+
+#header h1
+{
+position:absolute;
+text-align:left;
+color:#FFFFFF;
+font-size:43px;
+color:#FFF;
+left:14px;
+top:18px;
+}
+
+
+#header h2
+{
+position:absolute;
+text-align:right;
+font-size:10px;
+right:14px;
+top:22px;
+}
+
+#content
+{
+display:block;
+width:90%;
+height:auto;
+padding-left:10px;
+padding-top:15px;
+padding-right:10px;
+padding-bottom:5px;
+color: #ffffff;
+}
+
+
+#content_top
+{
+	background-image:url(../Images/main_top.png);
+	background-repeat:no-repeat;
+	width:689px;
+	height:23px;
+}
+
+#content_main
+{
+background-repeat:repeat-y;
+width:90%;
+padding-left:15px;
+padding-right:15px;
+}
+
+#content_bottom
+{
+background-image:url(../Images/main_bottom.png);
+background-repeat:no-repeat;
+width:689px;
+height:23px;
+}
+
+#footer
+{
+background: url(../Images/abc.png) repeat-x top;
+width:100%;
+padding-top: 10px;
+text-align:center;
+float:right;
+margin-left:auto;
+height: 40px;
+}
+
+#footer h3 a,#footer h3 a:visited
+{
+display:inline;
+text-align:center;
+font-size:12px;
+text-decoration:none;
+color:#FFF;
+}
+
+#menu {padding:0; margin:0; list-style:none; width:100%; height:44px; background: url(../Images/abc.png)repeat-x top;}
+#menu ul {list-style: none;padding: 0 0 0 20%;margin-left:auto;}
+#menu ul li {float:left; margin-left:5px; border: 2px outset #000}
+#menu ul li a {display:block; height:40px; line-height:40px; padding:0 20px; float:left; text-decoration:none; color: #ffffff;}
+#menu ul li a b {text-transform:uppercase;}
+#menu ul li a:hover
+{background: #63e3ff url(../Images/arrow.gif) no-repeat  bottom; color:#e60;}
+#menu ul .menuitem{background: #63e3ff url(../Images/arrow.gif) no-repeat  bottom; border: 2px inset #000}
+
+html, body {
+text-align: center;
+}
+p {text-align: justify;}
+
+.word{
+    font-size: 20px;
+    font-family: Vrinda,Lucida-Sans-Unicode;
+}
+
+.jus{
+    
+    letter-spacing:0.01em;
+    text-align: left;
+    font-size: 17px;
+    
+}
+
+#content_main h2{
+    color: #ffffff;
+}
+
+#content_main p{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#content_main ul{
+    text-align: left;
+}
+
+#content_main_comment{
+    width: 300px;
+    height: 200px;
+}
+
+input.text{
+    height: 3em;
+}
+
+#comment{
+    width: 90%;
+    background-color:#08697c;
+}
+
+.tborder{
+    background: none repeat scroll 0 0 #555576;
+    color: #000000;
+}
+
+.thead {
+    color: #FFFFFF;
+    font: bold 11px tahoma,verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;
+    background: url(../Images/abc.png) repeat-x top;
+}
+
+.alt1, .alt1Active {
+    background: none repeat scroll 0 0 #F5F5F5;
+    color: #000000;
+}
+
+.alt2, .alt2Active {
+    background: none repeat scroll 0 0 #EBEBEB;
+    color: #000000;
+}
+
+.page {
+    background: none repeat scroll 0 0 #08697c;
+    color: #000000;
+}
+
+#ideheader{
+/*    background: url(../Images/templatemo_header.jpg) no-repeat;*/
+}
+#idemain{
+/*    background: url(../Images/templatemo_content.jpg) repeat-y scroll 0 0 transparent;*/
+    clear: left;
+}
+#idefooter{
+/*    background: url(../Images/templatemo_footer.jpg) no-repeat;*/
+}
+
+#postable td, #postable select, #postable option {font-size:12pt; color:#000000; font-weight:normal; font-family:sans-serif,verdana,helvetica;}
+#postable select { width:150px; }
+
+
+#database{
+    width: 75%;
+    display: inline;
+    float: left;
+}
+
+#abbri{
+    width: 25%;
+    display: inline;
+    float: left;
+}
+
+#attribute{
+    width: 22%;
+    float: left;
+}

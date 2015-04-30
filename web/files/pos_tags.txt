@@ -1,0 +1,79 @@
+NC 	Common Noun
+NP	Proper Noun
+NV 	Verbal Noun
+NST 	Spatiotemporal Noun
+VM	Main Verb
+VA	Auxiliary Verb
+PPR	Pronominal Pronoun
+PRF	Reflexive Pronoun
+PRC	Reciprocal Pronoun
+PRL	Relative Pronoun
+PWH	Wh Pronoun
+JJ	Adjective
+JQ	Quantifiers
+DAB 	Absolute Demon-strative
+DRL	Relative Demon-strative
+DWH	Wh Demon-strative
+AMN	Manner Adverb
+ALC	Location Adverb
+ATI	Time Adverb
+n-Nml	non-Numeral
+PPPP	Postposition
+PPPE	Postpositional Endings
+PREF	Preposition
+Mas	Masculine
+Fem	Feminine
+Neu	Neuter
+Sg	Singular
+Pl	Plural
+Du	Dual
+1p	First Person
+2p	Second Person
+3p	Third Person
+Prs	Present Tense
+Pst	Past Tense
+Fut	Future Tense
+Dir	Direct Case
+Obl	Oblique Case
+Erg	Ergative Case-marker
+Acc	Accusative Case-marker
+INTJ	Interjection
+Inst	Instrumental Case-marker
+Dat	Dative Case-marker
+Gen	Genitive Case-marker
+Soc 	Sociative Case-marker
+Loc	Locative Case-marker
+Abl	Ablative Case-marker
+Bnf	Benefecative Case-marker
+Voc	Vocative Case-marker
+Pur	Purposive Case-marker
+Sim	Simple Aspect
+Prog	Progressive Aspect
+Purp	Purposive Aspect
+Dcl	Declarative Mood
+Sbj	Subjunctive Mood
+Cnd	Condtional Mood
+Imp	Imperative mood
+Psm	Presumptive Mood
+Abt	Abilitative Mood
+Hab 	Habitual Mood
+CONJ	Conjunction
+Fin	Finite
+Inf	Infinitive
+Ger	Gerund
+Prt	Participle
+Emph	Emphatic
+n-Emph 	non-Emphatic
+Neg	Negative
+n-Neg 	non-Negative
+Prox	Proximal Distance
+Dist	Distal Distance
+Seq	Sequel Distance
+Incl	Inclusive
+Excl	Exclusive
+Hon	Honorific
+n-Hon	non-Honorific
+Inti	Intimate
+n-Inti	non-Intimate
+Ord	Ordinal
+Card	Cardinal
