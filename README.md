@@ -2,9 +2,9 @@
 
 ##Description
 
-Its a mass development tool to create comprehensive machine readable pronunciation lexicon for Indian languages. The lexicon file contains the orthography, corresponding pronunciations, parts-of-speech, morphosyntactic description, idiolectic variation of word pronunciation and meaning of lexical entries in a format based on requirements defined by the W3C Voice Browser Activity Pronunciation Lexicon Specification (PLS) 1.0. The current version of the Pronunciation Lexicon for Indian Languages Toolkit (PL-ILT) PLS contains approximately 2 million lexical entries for Bengali. Although in this paper we only describe language specific issues related to Bengali, PL-ILT has the ability to adapt different languages.
+Its a mass development tool to create comprehensive machine readable pronunciation lexicon for Indian languages. This web tool creats lexicon file contains the orthography, corresponding pronunciations, parts-of-speech, morphosyntactic description, idiolectic variation of word pronunciation and meaning of lexical entries in a format based on requirements defined by the W3C Voice Browser Activity Pronunciation Lexicon Specification (PLS) 1.0. The current version of the Pronunciation Lexicon for Indian Languages Toolkit (PL-ILT) PLS contains approximately 2 million lexical entries for Bengali. PL-ILT has the ability to adapt different languages.
 
-Please cite this paper if you use the voice.
+Please cite this paper if you use the tool.
 
 http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=6709858
 
